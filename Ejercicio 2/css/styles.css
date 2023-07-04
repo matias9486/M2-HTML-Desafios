@@ -1,0 +1,35 @@
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --font-color: #0a2ff1;
+    --fs-24: 32px;
+    --fw-light:300;
+    --fw--bold:700;
+
+    font-family: var(--poppins);
+    color: var(--font-color);
+    font-size: var(--fs-24);
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-weight: var(--fw-light);
+}
+
+p strong{
+    font-weight: var(--fw--bold);
+}
+
+div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    width:100px; 
+    vertical-align: middle;
+    margin-left: 30px;
+}

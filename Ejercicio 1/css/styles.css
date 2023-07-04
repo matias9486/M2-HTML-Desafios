@@ -1,0 +1,49 @@
+:root{
+    --font-color:#0a2ff1;       
+    --background-h:#3ffff3;
+    --font-family:'Poppins', sans-serif;
+    --fs-59:78.66px;
+    --fs-23:30.66px;
+
+    --fw-medium:500;
+    --fw-bold:700;
+
+    font-family: var(--font-family);
+    color: var(--font-color)
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fondo{
+    text-transform: capitalize;
+    background-color: var(--background-h);
+}
+
+main{
+    width: 55%;
+    margin: 0 auto;    
+}
+
+h1{    
+    font-size: var(--fs-59);
+    font-weight: var(--fw-bold);       
+}
+
+p{    
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: var(--fs-23);
+    font-weight: var(--fw-medium);       
+}
+
+.cel-image{
+    background-image: url('../images/fondo.JPG');
+    background-position-y: bottom;        
+    background-repeat: repeat-x;    
+    background-size: 15%;          
+    width: 55%;
+}
